@@ -1,13 +1,126 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+:root {
+  --era-color-1: #E0EDFD;
+  --era-color-2: #1F2E43;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'Taylor Swift';
+  src: local("Taylor Swift"), url("./fonts/taylor-swift.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'Fearless';
+  src: local("Fearless"), url("./fonts/fearless.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'Speak Now';
+  src: local("Speak Now"), url("./fonts/speak-now.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'Red';
+  src: local("Red"), url("./fonts/red.otf");
+  font-weight: bold;
+}
+ @font-face {
+  font-family: '1989';
+  src: local("1989"), url("./fonts/one989.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'Reputation';
+  src: local("Reputation"), url("./fonts/reputation.otf");
+  font-weight: bold;
+} 
+@font-face {
+  font-family: 'Lover';
+  src: local("Lover"), url("./fonts/lover.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'Folklore';
+  src: local("Folklore"), url("./fonts/folklore.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'Evermore';
+  src: local("Evermore"), url("./fonts/evermore.ttf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Midnight';
+  src: local("Midnight"), url("./fonts/midnights.otf");
+  font-weight: bold;
+} 
+
+ 
+body[data-theme="taylor-swift"] {
+  --era-color-1: #A9CBAA;
+  --era-color-2: #0C1A0C;
+  --era-font: 'Taylor Swift';
+}
+
+body[data-theme="fearless"] {
+  --era-color-1: #FDDAA6;
+  --era-color-2: #1E151A;
+  --era-font: 'Fearless';
+}
+
+body[data-theme="speak-now"] {
+  --era-color-1: #D6BADC;
+  --era-color-2: #000000;
+  --era-font: 'Speak Now';
+}
+body[data-theme="red"] {
+  --era-color-1: #72333C;
+  --era-color-2: #C7B2A2;
+  --era-font: 'Red';
+}
+
+body[data-theme="one989"] {
+  --era-color-1: #034A62;
+  --era-color-2: #D1F3FF;
+  --era-font: '1989';
+}
+
+body[data-theme="reputation"] {
+  --era-color-1: #2A2628;
+  --era-color-2: #CACACA;
+  --era-font: 'Reputation';
+}
+body[data-theme="lover"] {
+  --era-color-1: #FBB3D1;
+  --era-color-2: #3D2D34;
+  --era-font: 'Lover';
+}
+
+body[data-theme="folklore"] {
+  --era-color-1: #D5D5D5;
+  --era-color-2: #000000;
+  --era-font: 'Folklore';
+}
+
+body[data-theme="evermore"] {
+  --era-color-1: #E0C9AF;
+  --era-color-2: #2E2327;
+  --era-font: 'Evermore';
+}
+body[data-theme="midnight"] {
+  --era-color-1: #E0EDFD;
+  --era-color-2: #1F2E43;
+  --era-font: 'Midnight';
+}
+
+body {
+  background: var(--era-color-2) !important;
+  color: var(--era-color-1) !important;
+  font-family: var(--era-font) !important;
+  transition: all .5s ease-in-out;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
 }
