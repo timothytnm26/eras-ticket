@@ -51,8 +51,8 @@
 }
 
 @font-face {
-  font-family: 'Midnight';
-  src: local("Midnight"), url("./fonts/midnights.otf");
+  font-family: 'Midnights';
+  src: local("Midnights"), url("./fonts/midnights.otf");
   font-weight: bold;
 } 
 
@@ -108,10 +108,10 @@ body[data-theme="evermore"] {
   --era-color-2: #2E2327;
   --era-font: 'Evermore';
 }
-body[data-theme="midnight"] {
+body[data-theme="midnights"] {
   --era-color-1: #E0EDFD;
   --era-color-2: #1F2E43;
-  --era-font: 'Midnight';
+  --era-font: 'Midnights';
 }
 
 body {
