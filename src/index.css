@@ -2,6 +2,7 @@
 :root {
   --era-color-1: #E0EDFD;
   --era-color-2: #1F2E43;
+  --era-font: 'Midnights';
 }
 
 @font-face {
