@@ -26,8 +26,8 @@
   font-weight: bold;
 }
  @font-face {
-  font-family: '1989';
-  src: local("1989"), url("./fonts/one989.ttf");
+  font-family: 'one989';
+  src: local("one989"), url("./fonts/one989.ttf");
   font-weight: bold;
 }
 @font-face {
@@ -84,7 +84,7 @@ body[data-theme="red"] {
 body[data-theme="one989"] {
   --era-color-1: #034A62;
   --era-color-2: #D1F3FF;
-  --era-font: '1989';
+  --era-font: 'one989';
 }
 
 body[data-theme="reputation"] {

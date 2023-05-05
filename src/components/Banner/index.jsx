@@ -1,7 +1,9 @@
 import React from "react";
 import styled from "styled-components";
-import { ERAS } from "../../constants/eras";
+import { ERAS } from "../../data/eras";
 import { useState } from "react";
+import LuckyDraw from "../LuckyDraw";
+
 const Container = styled.div`
   width: 100%;
   display: flex;
@@ -15,8 +17,12 @@ const Banner = styled.div`
   position: relative;
 `;
 const EraButton = styled.div`
+  position: relative;
+  display: flex;
+  font-family: ${(props) => props.eras.font};
   background-color: ${(props) => props.bg};
-  width: ${(props) => (props.active === true ? `35%` : `${65 / 9}%`)};
+  width: ${(props) => (props.active === true ? `100%` : `10%`)};
+  //width: ${(props) => (props.active === true ? `35%` : `${65 / 9}%`)};
   height: calc(100vh);
   color: ${(props) => props.txt};
   opacity: 1;
@@ -26,7 +32,18 @@ const EraButton = styled.div`
     height: calc(40vh);
   }
 `;
-
+const AlbumName = styled.span`
+  text-align: center;
+  vertical-align: middle;
+  height: 200px;
+  width: 100%;
+  font-size: 100px !important;
+  transform: translate(-50%, -50%) ;
+  overflow: hidden;
+`;
+const Tracks = styled.div`
+  font-size: 26px;
+`;
 const ErasBanner = () => {
   const [active, setActive] = useState(9);
 
@@ -46,7 +63,13 @@ const ErasBanner = () => {
                 document.body.setAttribute("data-theme", eras.id);
               }}
             >
-              {eras.name}
+              <AlbumName>{eras.name}</AlbumName>
+              <Tracks>
+                {active === i &&
+                  eras.tracks.items.map((track) => {
+                    return <p>{track.track.name}</p>;
+                  })}
+              </Tracks>
             </EraButton>
           );
         })}
