@@ -14,6 +14,7 @@ export const ERAS = [
       shareUrl:
         "https://open.spotify.com/album/7mzrIsaAjnXihW3InKjlC3?si=otvqjrfORw-kyGAC5Bh1wA",
     },
+    taylor: "images/taylorswift",
     tracks: {
       totalCount: 15,
       items: [
@@ -493,13 +494,14 @@ export const ERAS = [
     banner: "fearless",
     font: "Fearless",
     spotifyId: "4hDok0OAJd57SGIT8xuWJH",
-    playlistName: "Fearless (Taylor's Version)",
+    playlistName: "Fearless (T's V)",
     isoString: "2021-04-09T00:00:00Z",
     sharingInfo: {
       shareId: "sOlVlLBkTnWOGML4y-MfFA",
       shareUrl:
         "https://open.spotify.com/album/4hDok0OAJd57SGIT8xuWJH?si=sOlVlLBkTnWOGML4y-MfFA",
     },
+    taylor: "images/fearless",
     tracks: {
       totalCount: 26,
       items: [
@@ -508,7 +510,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:77sMIMlNaSURUAXq5coCxE",
-            name: "Fearless (Taylor’s Version)",
+            name: "Fearless (T's V)",
             playcount: "92248889",
             discNumber: 1,
             trackNumber: 1,
@@ -539,7 +541,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:2nqio0SfWg6gh2eCtfuMa5",
-            name: "Fifteen (Taylor’s Version)",
+            name: "Fifteen (T's V)",
             playcount: "57810508",
             discNumber: 1,
             trackNumber: 2,
@@ -570,7 +572,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:6YvqWjhGD8mB5QXcbcUKtx",
-            name: "Love Story (Taylor’s Version)",
+            name: "Love Story (T's V)",
             playcount: "360990516",
             discNumber: 1,
             trackNumber: 3,
@@ -601,7 +603,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:550erGcdD9n6PnwxrvYqZT",
-            name: "Hey Stephen (Taylor’s Version)",
+            name: "Hey Stephen (T's V)",
             playcount: "53155563",
             discNumber: 1,
             trackNumber: 4,
@@ -632,7 +634,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:5YL553x8sHderRBDlm3NM3",
-            name: "White Horse (Taylor’s Version)",
+            name: "White Horse (T's V)",
             playcount: "54489538",
             discNumber: 1,
             trackNumber: 5,
@@ -663,7 +665,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:1qrpoAMXodY6895hGKoUpA",
-            name: "You Belong With Me (Taylor’s Version)",
+            name: "You Belong With Me (T's V)",
             playcount: "271443077",
             discNumber: 1,
             trackNumber: 6,
@@ -694,7 +696,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:7HC7R2D8WjXVcUHJyEGjRs",
-            name: "Breathe (feat. Colbie Caillat) (Taylor’s Version)",
+            name: "Breathe (feat. Colbie Caillat) (T's V)",
             playcount: "41050576",
             discNumber: 1,
             trackNumber: 7,
@@ -731,7 +733,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:0k0vFacOHNuArLWMiH60p7",
-            name: "Tell Me Why (Taylor’s Version)",
+            name: "Tell Me Why (T's V)",
             playcount: "35082459",
             discNumber: 1,
             trackNumber: 8,
@@ -762,7 +764,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:6iiAfo4wTA2CVC3Uwx9uh8",
-            name: "You’re Not Sorry (Taylor’s Version)",
+            name: "You’re Not Sorry (T's V)",
             playcount: "42005959",
             discNumber: 1,
             trackNumber: 9,
@@ -793,7 +795,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:22bPsP2jCgbLUvh82U0Z3M",
-            name: "The Way I Loved You (Taylor’s Version)",
+            name: "The Way I Loved You (T's V)",
             playcount: "227540967",
             discNumber: 1,
             trackNumber: 10,
@@ -824,7 +826,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:1msEuwSBneBKpVCZQcFTsU",
-            name: "Forever & Always (Taylor’s Version)",
+            name: "Forever & Always (T's V)",
             playcount: "62832086",
             discNumber: 1,
             trackNumber: 11,
@@ -855,7 +857,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:6ON9UuIq49xXY9GPmHIYRp",
-            name: "The Best Day (Taylor’s Version)",
+            name: "The Best Day (T's V)",
             playcount: "31226211",
             discNumber: 1,
             trackNumber: 12,
@@ -886,7 +888,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:3ExweHKZF9B752DPQByRVT",
-            name: "Change (Taylor’s Version)",
+            name: "Change (T's V)",
             playcount: "27750892",
             discNumber: 1,
             trackNumber: 13,
@@ -917,7 +919,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:2m3ObD945KvpE5y9A1eUWm",
-            name: "Jump Then Fall (Taylor’s Version)",
+            name: "Jump Then Fall (T's V)",
             playcount: "32475501",
             discNumber: 1,
             trackNumber: 14,
@@ -948,7 +950,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:0tQ9vBYpldCuikPsbgOVKA",
-            name: "Untouchable (Taylor’s Version)",
+            name: "Untouchable (T's V)",
             playcount: "33374183",
             discNumber: 1,
             trackNumber: 15,
@@ -979,7 +981,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:01QdEx6kFr78ZejhQtWR5m",
-            name: "Forever & Always (Piano Version) (Taylor’s Version)",
+            name: "Forever & Always (Piano Version) (T's V)",
             playcount: "32542674",
             discNumber: 1,
             trackNumber: 16,
@@ -1010,7 +1012,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:1n2wszmJyVkw6FHqyLnQsY",
-            name: "Come In With The Rain (Taylor’s Version)",
+            name: "Come In With The Rain (T's V)",
             playcount: "25115608",
             discNumber: 1,
             trackNumber: 17,
@@ -1041,7 +1043,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:51A8eKvvZz9uydvIZ7xRSV",
-            name: "Superstar (Taylor’s Version)",
+            name: "Superstar (T's V)",
             playcount: "22794583",
             discNumber: 1,
             trackNumber: 18,
@@ -1072,7 +1074,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:1cSFlSBdpT4F5vb1frQ231",
-            name: "The Other Side Of The Door (Taylor’s Version)",
+            name: "The Other Side Of The Door (T's V)",
             playcount: "41832448",
             discNumber: 1,
             trackNumber: 19,
@@ -1103,7 +1105,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:2JoJrsEV15OzbijS47lids",
-            name: "Today Was A Fairytale (Taylor’s Version)",
+            name: "Today Was A Fairytale (T's V)",
             playcount: "32184515",
             discNumber: 1,
             trackNumber: 20,
@@ -1134,7 +1136,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:4CHpVfAhuxNJ3ibExe6kxO",
-            name: "You All Over Me (feat. Maren Morris) (Taylor’s Version) (From The Vault)",
+            name: "You All Over Me (feat. Maren Morris) (T's V) (From The Vault)",
             playcount: "82620342",
             discNumber: 1,
             trackNumber: 21,
@@ -1171,7 +1173,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:2CYVETnhM9aytqrazYYwrK",
-            name: "Mr. Perfectly Fine (Taylor’s Version) (From The Vault)",
+            name: "Mr. Perfectly Fine (T's V) (From The Vault)",
             playcount: "222854489",
             discNumber: 1,
             trackNumber: 22,
@@ -1202,7 +1204,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:34V9RiEPe8MNdU32qJsJa1",
-            name: "We Were Happy (Taylor’s Version) (From The Vault)",
+            name: "We Were Happy (T's V) (From The Vault)",
             playcount: "37941317",
             discNumber: 1,
             trackNumber: 23,
@@ -1233,7 +1235,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:7eResoqEJJAVTkQYSqvO3P",
-            name: "That’s When (feat. Keith Urban) (Taylor’s Version) (From The Vault)",
+            name: "That’s When (feat. Keith Urban) (T's V) (From The Vault)",
             playcount: "51564607",
             discNumber: 1,
             trackNumber: 24,
@@ -1270,7 +1272,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:4uuEGH5SVuzkkSFjo2DEiY",
-            name: "Don’t You (Taylor’s Version) (From The Vault)",
+            name: "Don’t You (T's V) (From The Vault)",
             playcount: "44049365",
             discNumber: 1,
             trackNumber: 25,
@@ -1301,7 +1303,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:4qUijfYU8EoIWiY6oSyrgT",
-            name: "Bye Bye Baby (Taylor’s Version) (From The Vault)",
+            name: "Bye Bye Baby (T's V) (From The Vault)",
             playcount: "34898977",
             discNumber: 1,
             trackNumber: 26,
@@ -1345,6 +1347,7 @@ export const ERAS = [
       shareUrl:
         "https://open.spotify.com/album/5EpMjweRD573ASl7uNiHym?si=XLRMGCfwRIO3UEd135XRwg",
     },
+    taylor: "images/speaknow",
     tracks: {
       totalCount: 20,
       items: [
@@ -1986,6 +1989,7 @@ export const ERAS = [
       shareUrl:
         "https://open.spotify.com/album/6kZ42qRrzov54LcAk4onW9?si=NbLz-PzAQeiQPD4hPZA2iA",
     },
+    taylor: "images/red",
     tracks: {
       totalCount: 30,
       items: [
@@ -1994,7 +1998,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:6lzc0Al0zfZOIFsFvBS1ki",
-            name: "State Of Grace (Taylor's Version)",
+            name: "State Of Grace (T's V)",
             playcount: "79438376",
             discNumber: 1,
             trackNumber: 1,
@@ -2025,7 +2029,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:4OAuvHryIVv4kMDNSLuPt6",
-            name: "Red (Taylor's Version)",
+            name: "Red (T's V)",
             playcount: "158871329",
             discNumber: 1,
             trackNumber: 2,
@@ -2056,7 +2060,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:3S7HNKPakdwNEBFIVTL6dZ",
-            name: "Treacherous (Taylor's Version)",
+            name: "Treacherous (T's V)",
             playcount: "69443981",
             discNumber: 1,
             trackNumber: 3,
@@ -2087,7 +2091,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:6AtZLIzUINvExIUy4QhdjP",
-            name: "I Knew You Were Trouble (Taylor's Version)",
+            name: "I Knew You Were Trouble (T's V)",
             playcount: "155730872",
             discNumber: 1,
             trackNumber: 4,
@@ -2118,7 +2122,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:3nsfB1vus2qaloUdcBZvDu",
-            name: "All Too Well (Taylor's Version)",
+            name: "All Too Well (T's V)",
             playcount: "157697451",
             discNumber: 1,
             trackNumber: 5,
@@ -2149,7 +2153,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:3yII7UwgLF6K5zW3xad3MP",
-            name: "22 (Taylor's Version)",
+            name: "22 (T's V)",
             playcount: "121605121",
             discNumber: 1,
             trackNumber: 6,
@@ -2180,7 +2184,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:2r9CbjYgFhtAmcFv1cSquB",
-            name: "I Almost Do (Taylor's Version)",
+            name: "I Almost Do (T's V)",
             playcount: "58189728",
             discNumber: 1,
             trackNumber: 7,
@@ -2211,7 +2215,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:5YqltLsjdqFtvqE7Nrysvs",
-            name: "We Are Never Ever Getting Back Together (Taylor's Version)",
+            name: "We Are Never Ever Getting Back Together (T's V)",
             playcount: "141242354",
             discNumber: 1,
             trackNumber: 8,
@@ -2242,7 +2246,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:7eQj6r5PIdYKEIZjucBMcq",
-            name: "Stay Stay Stay (Taylor's Version)",
+            name: "Stay Stay Stay (T's V)",
             playcount: "56903545",
             discNumber: 1,
             trackNumber: 9,
@@ -2273,7 +2277,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:0y6kdSRCVQhSsHSpWvTUm7",
-            name: "The Last Time (feat. Gary Lightbody of Snow Patrol) (Taylor’s Version)",
+            name: "The Last Time (feat. Gary Lightbody of Snow Patrol) (T's V)",
             playcount: "64998552",
             discNumber: 1,
             trackNumber: 10,
@@ -2310,7 +2314,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:7J4b3LVCIGO4CMBDFLPoP6",
-            name: "Holy Ground (Taylor's Version)",
+            name: "Holy Ground (T's V)",
             playcount: "52229164",
             discNumber: 1,
             trackNumber: 11,
@@ -2341,7 +2345,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:73qMN9bXy7MSPwwGfH3wQr",
-            name: "Sad Beautiful Tragic (Taylor's Version)",
+            name: "Sad Beautiful Tragic (T's V)",
             playcount: "56122642",
             discNumber: 1,
             trackNumber: 12,
@@ -2372,7 +2376,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:4e5ayHsOLJNLTGfjau2mEw",
-            name: "The Lucky One (Taylor's Version)",
+            name: "The Lucky One (T's V)",
             playcount: "48098566",
             discNumber: 1,
             trackNumber: 13,
@@ -2403,7 +2407,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:7qEUFOVcxRI19tbT68JcYK",
-            name: "Everything Has Changed (feat. Ed Sheeran) (Taylor’s Version)",
+            name: "Everything Has Changed (feat. Ed Sheeran) (T's V)",
             playcount: "80829376",
             discNumber: 1,
             trackNumber: 14,
@@ -2440,7 +2444,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:7A2cNLRT0YJc1yjxHlKihs",
-            name: "Starlight (Taylor's Version)",
+            name: "Starlight (T's V)",
             playcount: "43336636",
             discNumber: 1,
             trackNumber: 15,
@@ -2471,7 +2475,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:05GsNucq8Bngd9fnd4fRa0",
-            name: "Begin Again (Taylor's Version)",
+            name: "Begin Again (T's V)",
             playcount: "59116507",
             discNumber: 1,
             trackNumber: 16,
@@ -2502,7 +2506,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:0NRHj8hDwwmSPaA41o379r",
-            name: "The Moment I Knew (Taylor's Version)",
+            name: "The Moment I Knew (T's V)",
             playcount: "44190509",
             discNumber: 1,
             trackNumber: 17,
@@ -2533,7 +2537,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:4pNApnaUWAL2J4KO2eqokq",
-            name: "Come Back...Be Here (Taylor's Version)",
+            name: "Come Back...Be Here (T's V)",
             playcount: "64925694",
             discNumber: 1,
             trackNumber: 18,
@@ -2564,7 +2568,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:0DMVrlMUn01M0IcpDbwgu7",
-            name: "Girl At Home (Taylor's Version)",
+            name: "Girl At Home (T's V)",
             playcount: "37401809",
             discNumber: 1,
             trackNumber: 19,
@@ -2595,7 +2599,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:5jAIouBES8LWMiriuNq170",
-            name: "State Of Grace (Acoustic Version) (Taylor's Version)",
+            name: "State Of Grace (Acoustic Version) (T's V)",
             playcount: "34091364",
             discNumber: 1,
             trackNumber: 20,
@@ -2626,7 +2630,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:7nWui6jiMM2m9qFmET1Mtj",
-            name: "Ronan (Taylor's Version)",
+            name: "Ronan (T's V)",
             playcount: "27795980",
             discNumber: 1,
             trackNumber: 21,
@@ -2657,7 +2661,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:4OmFmE0fzcMG6g0Y8p4eSD",
-            name: "Better Man (Taylor's Version) (From The Vault)",
+            name: "Better Man (T's V) (From The Vault)",
             playcount: "86493034",
             discNumber: 1,
             trackNumber: 22,
@@ -2688,7 +2692,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:01K4zKU104LyJ8gMb7227B",
-            name: "Nothing New (feat. Phoebe Bridgers) (Taylor’s Version) (From The Vault)",
+            name: "Nothing New (feat. Phoebe Bridgers) (T's V) (From The Vault)",
             playcount: "135436270",
             discNumber: 1,
             trackNumber: 23,
@@ -2725,7 +2729,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:0v4z1tuZvn6LGknom9Qx7d",
-            name: "Babe (Taylor's Version) (From The Vault)",
+            name: "Babe (T's V) (From The Vault)",
             playcount: "72386511",
             discNumber: 1,
             trackNumber: 24,
@@ -2756,7 +2760,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:3z6XUommYDWPHeFhmhhT6j",
-            name: "Message In A Bottle (Taylor's Version) (From The Vault)",
+            name: "Message In A Bottle (T's V) (From The Vault)",
             playcount: "134766510",
             discNumber: 1,
             trackNumber: 25,
@@ -2787,7 +2791,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:4CkgMiMqZ5JzW9iYXSTMTL",
-            name: "I Bet You Think About Me (feat. Chris Stapleton) (Taylor’s Version) (From The Vault)",
+            name: "I Bet You Think About Me (feat. Chris Stapleton) (T's V) (From The Vault)",
             playcount: "137890924",
             discNumber: 1,
             trackNumber: 26,
@@ -2824,7 +2828,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:3oGVx9RBmiYGv5ZCecWLkx",
-            name: "Forever Winter (Taylor's Version) (From The Vault)",
+            name: "Forever Winter (T's V) (From The Vault)",
             playcount: "58669677",
             discNumber: 1,
             trackNumber: 27,
@@ -2855,7 +2859,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:4IQkfUsrwXol38VV3U7t7T",
-            name: "Run (feat. Ed Sheeran) (Taylor’s Version) (From The Vault)",
+            name: "Run (feat. Ed Sheeran) (T's V) (From The Vault)",
             playcount: "103682055",
             discNumber: 1,
             trackNumber: 28,
@@ -2892,7 +2896,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:6pYNq0ZwpPVazKzsqpf0G8",
-            name: "The Very First Night (Taylor's Version) (From The Vault)",
+            name: "The Very First Night (T's V) (From The Vault)",
             playcount: "102127088",
             discNumber: 1,
             trackNumber: 29,
@@ -2923,7 +2927,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:5enxwA8aAbwZbf5qCHORXi",
-            name: "All Too Well (10 Minute Version) (Taylor's Version) (From The Vault)",
+            name: "All Too Well (10 Minute Version) (T's V) (From The Vault)",
             playcount: "519191158",
             discNumber: 1,
             trackNumber: 30,
@@ -2967,600 +2971,7 @@ export const ERAS = [
       shareUrl:
         "https://open.spotify.com/album/34OkZVpuzBa9y40DCy0LPR?si=16gqp3HJSjm72vNbSOW28g",
     },
-    tracks: {
-      totalCount: 19,
-      items: [
-        {
-          uid: "16d733f136c6f95d67f7",
-          track: {
-            saved: false,
-            uri: "spotify:track:33Kq0AT5rvwyE4azisG08x",
-            name: "Welcome To New York",
-            playcount: "181403881",
-            discNumber: 1,
-            trackNumber: 1,
-            contentRating: {
-              label: "NONE",
-            },
-            relinkingInformation: null,
-            duration: {
-              totalMilliseconds: 212600,
-            },
-            playability: {
-              playable: true,
-            },
-            artists: {
-              items: [
-                {
-                  uri: "spotify:artist:06HL4z0CvFAxyc27GXpf02",
-                  profile: {
-                    name: "Taylor Swift",
-                  },
-                },
-              ],
-            },
-          },
-        },
-        {
-          uid: "a2f429f4a1aad328adaa",
-          track: {
-            saved: false,
-            uri: "spotify:track:2sC2P3BN0IXujNaaSyDmtP",
-            name: "Blank Space",
-            playcount: "1197880486",
-            discNumber: 1,
-            trackNumber: 2,
-            contentRating: {
-              label: "NONE",
-            },
-            relinkingInformation: null,
-            duration: {
-              totalMilliseconds: 231826,
-            },
-            playability: {
-              playable: true,
-            },
-            artists: {
-              items: [
-                {
-                  uri: "spotify:artist:06HL4z0CvFAxyc27GXpf02",
-                  profile: {
-                    name: "Taylor Swift",
-                  },
-                },
-              ],
-            },
-          },
-        },
-        {
-          uid: "00f71dcae682987c7588",
-          track: {
-            saved: false,
-            uri: "spotify:track:1fo2ctLqj3zBhRQKOXprol",
-            name: "Style",
-            playcount: "637349274",
-            discNumber: 1,
-            trackNumber: 3,
-            contentRating: {
-              label: "NONE",
-            },
-            relinkingInformation: null,
-            duration: {
-              totalMilliseconds: 231000,
-            },
-            playability: {
-              playable: true,
-            },
-            artists: {
-              items: [
-                {
-                  uri: "spotify:artist:06HL4z0CvFAxyc27GXpf02",
-                  profile: {
-                    name: "Taylor Swift",
-                  },
-                },
-              ],
-            },
-          },
-        },
-        {
-          uid: "3c4f32b262a1d341a1c4",
-          track: {
-            saved: false,
-            uri: "spotify:track:6Nde5KuTXyB7jlPO4upaBo",
-            name: "Out Of The Woods",
-            playcount: "233347366",
-            discNumber: 1,
-            trackNumber: 4,
-            contentRating: {
-              label: "NONE",
-            },
-            relinkingInformation: null,
-            duration: {
-              totalMilliseconds: 235800,
-            },
-            playability: {
-              playable: true,
-            },
-            artists: {
-              items: [
-                {
-                  uri: "spotify:artist:06HL4z0CvFAxyc27GXpf02",
-                  profile: {
-                    name: "Taylor Swift",
-                  },
-                },
-              ],
-            },
-          },
-        },
-        {
-          uid: "30158fe3485d5c2c4320",
-          track: {
-            saved: false,
-            uri: "spotify:track:0lmMtDQ2ElasKU2qDAE6NN",
-            name: "All You Had To Do Was Stay",
-            playcount: "163228363",
-            discNumber: 1,
-            trackNumber: 5,
-            contentRating: {
-              label: "NONE",
-            },
-            relinkingInformation: null,
-            duration: {
-              totalMilliseconds: 193293,
-            },
-            playability: {
-              playable: true,
-            },
-            artists: {
-              items: [
-                {
-                  uri: "spotify:artist:06HL4z0CvFAxyc27GXpf02",
-                  profile: {
-                    name: "Taylor Swift",
-                  },
-                },
-              ],
-            },
-          },
-        },
-        {
-          uid: "6badb50894eb8bdab7d6",
-          track: {
-            saved: false,
-            uri: "spotify:track:3fthfkkvy9av3q3uAGVf7U",
-            name: "Shake It Off",
-            playcount: "1021494392",
-            discNumber: 1,
-            trackNumber: 6,
-            contentRating: {
-              label: "NONE",
-            },
-            relinkingInformation: null,
-            duration: {
-              totalMilliseconds: 219200,
-            },
-            playability: {
-              playable: true,
-            },
-            artists: {
-              items: [
-                {
-                  uri: "spotify:artist:06HL4z0CvFAxyc27GXpf02",
-                  profile: {
-                    name: "Taylor Swift",
-                  },
-                },
-              ],
-            },
-          },
-        },
-        {
-          uid: "5bcdf14fa14b261092d7",
-          track: {
-            saved: false,
-            uri: "spotify:track:1B5VzXPqMlvRw0U4HJY3dJ",
-            name: "I Wish You Would",
-            playcount: "101512705",
-            discNumber: 1,
-            trackNumber: 7,
-            contentRating: {
-              label: "NONE",
-            },
-            relinkingInformation: null,
-            duration: {
-              totalMilliseconds: 207440,
-            },
-            playability: {
-              playable: true,
-            },
-            artists: {
-              items: [
-                {
-                  uri: "spotify:artist:06HL4z0CvFAxyc27GXpf02",
-                  profile: {
-                    name: "Taylor Swift",
-                  },
-                },
-              ],
-            },
-          },
-        },
-        {
-          uid: "485d0aa52e7313cf386f",
-          track: {
-            saved: false,
-            uri: "spotify:track:0yN4fNzmVnmgC0dsOoi9Wh",
-            name: "Bad Blood",
-            playcount: "407817306",
-            discNumber: 1,
-            trackNumber: 8,
-            contentRating: {
-              label: "NONE",
-            },
-            relinkingInformation: null,
-            duration: {
-              totalMilliseconds: 211933,
-            },
-            playability: {
-              playable: true,
-            },
-            artists: {
-              items: [
-                {
-                  uri: "spotify:artist:06HL4z0CvFAxyc27GXpf02",
-                  profile: {
-                    name: "Taylor Swift",
-                  },
-                },
-              ],
-            },
-          },
-        },
-        {
-          uid: "47aab16a64698e188668",
-          track: {
-            saved: false,
-            uri: "spotify:track:106R7Z57WYzBAfrXImV30y",
-            name: "Wildest Dreams",
-            playcount: "723730521",
-            discNumber: 1,
-            trackNumber: 9,
-            contentRating: {
-              label: "NONE",
-            },
-            relinkingInformation: null,
-            duration: {
-              totalMilliseconds: 220440,
-            },
-            playability: {
-              playable: true,
-            },
-            artists: {
-              items: [
-                {
-                  uri: "spotify:artist:06HL4z0CvFAxyc27GXpf02",
-                  profile: {
-                    name: "Taylor Swift",
-                  },
-                },
-              ],
-            },
-          },
-        },
-        {
-          uid: "00d1e7fb22dfd6f53d28",
-          track: {
-            saved: false,
-            uri: "spotify:track:6wfugRLamFsTRbPcCpNnP7",
-            name: "How You Get The Girl",
-            playcount: "116950128",
-            discNumber: 1,
-            trackNumber: 10,
-            contentRating: {
-              label: "NONE",
-            },
-            relinkingInformation: null,
-            duration: {
-              totalMilliseconds: 247533,
-            },
-            playability: {
-              playable: true,
-            },
-            artists: {
-              items: [
-                {
-                  uri: "spotify:artist:06HL4z0CvFAxyc27GXpf02",
-                  profile: {
-                    name: "Taylor Swift",
-                  },
-                },
-              ],
-            },
-          },
-        },
-        {
-          uid: "eedf2803745de15850c1",
-          track: {
-            saved: false,
-            uri: "spotify:track:1kTPQnabROVkW9bUXdCGrB",
-            name: "This Love",
-            playcount: "85638731",
-            discNumber: 1,
-            trackNumber: 11,
-            contentRating: {
-              label: "NONE",
-            },
-            relinkingInformation: null,
-            duration: {
-              totalMilliseconds: 250093,
-            },
-            playability: {
-              playable: true,
-            },
-            artists: {
-              items: [
-                {
-                  uri: "spotify:artist:06HL4z0CvFAxyc27GXpf02",
-                  profile: {
-                    name: "Taylor Swift",
-                  },
-                },
-              ],
-            },
-          },
-        },
-        {
-          uid: "f7fd25bfaa7465cc1d37",
-          track: {
-            saved: false,
-            uri: "spotify:track:2zfgVd034GlUvk7LqBHl6u",
-            name: "I Know Places",
-            playcount: "96803016",
-            discNumber: 1,
-            trackNumber: 12,
-            contentRating: {
-              label: "NONE",
-            },
-            relinkingInformation: null,
-            duration: {
-              totalMilliseconds: 195706,
-            },
-            playability: {
-              playable: true,
-            },
-            artists: {
-              items: [
-                {
-                  uri: "spotify:artist:06HL4z0CvFAxyc27GXpf02",
-                  profile: {
-                    name: "Taylor Swift",
-                  },
-                },
-              ],
-            },
-          },
-        },
-        {
-          uid: "67f388855eed8d96244d",
-          track: {
-            saved: false,
-            uri: "spotify:track:4bXCcoesMt8u99xMsbLr9U",
-            name: "Clean",
-            playcount: "138438231",
-            discNumber: 1,
-            trackNumber: 13,
-            contentRating: {
-              label: "NONE",
-            },
-            relinkingInformation: null,
-            duration: {
-              totalMilliseconds: 271000,
-            },
-            playability: {
-              playable: true,
-            },
-            artists: {
-              items: [
-                {
-                  uri: "spotify:artist:06HL4z0CvFAxyc27GXpf02",
-                  profile: {
-                    name: "Taylor Swift",
-                  },
-                },
-              ],
-            },
-          },
-        },
-        {
-          uid: "26e12151903b1209fae9",
-          track: {
-            saved: false,
-            uri: "spotify:track:6iWMI5oOhWrDbLbjmwTWFq",
-            name: "Wonderland",
-            playcount: "98157892",
-            discNumber: 1,
-            trackNumber: 14,
-            contentRating: {
-              label: "NONE",
-            },
-            relinkingInformation: null,
-            duration: {
-              totalMilliseconds: 245560,
-            },
-            playability: {
-              playable: true,
-            },
-            artists: {
-              items: [
-                {
-                  uri: "spotify:artist:06HL4z0CvFAxyc27GXpf02",
-                  profile: {
-                    name: "Taylor Swift",
-                  },
-                },
-              ],
-            },
-          },
-        },
-        {
-          uid: "1b5affd4ebcca3adf783",
-          track: {
-            saved: false,
-            uri: "spotify:track:4A2LfnduSTsE8u0ecYROxE",
-            name: "You Are In Love",
-            playcount: "96704348",
-            discNumber: 1,
-            trackNumber: 15,
-            contentRating: {
-              label: "NONE",
-            },
-            relinkingInformation: null,
-            duration: {
-              totalMilliseconds: 267106,
-            },
-            playability: {
-              playable: true,
-            },
-            artists: {
-              items: [
-                {
-                  uri: "spotify:artist:06HL4z0CvFAxyc27GXpf02",
-                  profile: {
-                    name: "Taylor Swift",
-                  },
-                },
-              ],
-            },
-          },
-        },
-        {
-          uid: "6dee9a4795f8b24f06df",
-          track: {
-            saved: false,
-            uri: "spotify:track:6rZVy6FIG7lSJQMFXHo12z",
-            name: "New Romantics",
-            playcount: "172215590",
-            discNumber: 1,
-            trackNumber: 16,
-            contentRating: {
-              label: "NONE",
-            },
-            relinkingInformation: null,
-            duration: {
-              totalMilliseconds: 230466,
-            },
-            playability: {
-              playable: true,
-            },
-            artists: {
-              items: [
-                {
-                  uri: "spotify:artist:06HL4z0CvFAxyc27GXpf02",
-                  profile: {
-                    name: "Taylor Swift",
-                  },
-                },
-              ],
-            },
-          },
-        },
-        {
-          uid: "0558e92f216a04a48830",
-          track: {
-            saved: false,
-            uri: "spotify:track:4JQm7ebhsrt10wmrP6AfXL",
-            name: "I Know Places - Voice Memo",
-            playcount: "4424043",
-            discNumber: 1,
-            trackNumber: 17,
-            contentRating: {
-              label: "NONE",
-            },
-            relinkingInformation: null,
-            duration: {
-              totalMilliseconds: 216333,
-            },
-            playability: {
-              playable: true,
-            },
-            artists: {
-              items: [
-                {
-                  uri: "spotify:artist:06HL4z0CvFAxyc27GXpf02",
-                  profile: {
-                    name: "Taylor Swift",
-                  },
-                },
-              ],
-            },
-          },
-        },
-        {
-          uid: "0d8cf8f7fc3a3d59217c",
-          track: {
-            saved: false,
-            uri: "spotify:track:4TtyvyI42C0KFnbDZvNC8Y",
-            name: "I Wish You Would - Voice Memo",
-            playcount: "3443433",
-            discNumber: 1,
-            trackNumber: 18,
-            contentRating: {
-              label: "NONE",
-            },
-            relinkingInformation: null,
-            duration: {
-              totalMilliseconds: 107133,
-            },
-            playability: {
-              playable: true,
-            },
-            artists: {
-              items: [
-                {
-                  uri: "spotify:artist:06HL4z0CvFAxyc27GXpf02",
-                  profile: {
-                    name: "Taylor Swift",
-                  },
-                },
-              ],
-            },
-          },
-        },
-        {
-          uid: "931ed114b3869971f6b6",
-          track: {
-            saved: false,
-            uri: "spotify:track:0yisH8r0f3Mkq34kjzUlCV",
-            name: "Blank Space - Voice Memo",
-            playcount: "3711454",
-            discNumber: 1,
-            trackNumber: 19,
-            contentRating: {
-              label: "NONE",
-            },
-            relinkingInformation: null,
-            duration: {
-              totalMilliseconds: 131186,
-            },
-            playability: {
-              playable: true,
-            },
-            artists: {
-              items: [
-                {
-                  uri: "spotify:artist:06HL4z0CvFAxyc27GXpf02",
-                  profile: {
-                    name: "Taylor Swift",
-                  },
-                },
-              ],
-            },
-          },
-        },
-      ],
-    },
+    taylor: "images/one989",
     tracks: {
       totalCount: 19,
       items: [
@@ -4158,7 +3569,7 @@ export const ERAS = [
   },
   {
     id: "reputation",
-    name: "Reputation",
+    name: "reputation",
     color1: "#2A2628",
     color2: " #CACACA",
     banner: "reputation",
@@ -4171,6 +3582,7 @@ export const ERAS = [
       shareUrl:
         "https://open.spotify.com/album/6DEjYFkNZh67HP7R9PSZvv?si=hhlUngD1SaaSO6HY2TobTA",
     },
+    taylor: "images/reputation",
     tracks: {
       totalCount: 15,
       items: [
@@ -4669,6 +4081,7 @@ export const ERAS = [
       shareUrl:
         "https://open.spotify.com/album/1NAmidJlEaVgA3MpcPFYGq?si=MBZUWOGwS_6PhInWuHB75g",
     },
+    taylor: "images/lover",
     tracks: {
       totalCount: 18,
       items: [
@@ -5266,6 +4679,7 @@ export const ERAS = [
       shareUrl:
         "https://open.spotify.com/album/1pzvBxYgT6OVwJLtHkrdQK?si=g-2IunXgRIe-pGfowLDz6A",
     },
+    taylor: "images/folklore",
     tracks: {
       totalCount: 17,
       items: [
@@ -5820,6 +5234,7 @@ export const ERAS = [
       shareUrl:
         "https://open.spotify.com/album/1DT6fDJL6AWPJxe7Lq1dPb?si=-QAJ7nfxRs-FioANicFW7Q",
     },
+    taylor: "images/evermore",
     tracks: {
       totalCount: 17,
       items: [
@@ -6386,6 +5801,7 @@ export const ERAS = [
       shareUrl:
         "https://open.spotify.com/album/3lS1y25WAhcqJDATJK70Mq?si=Fn2OrG9oS3CsnFCM1mWVNQ",
     },
+    taylor: "images/midnights",
     tracks: {
       totalCount: 20,
       items: [
