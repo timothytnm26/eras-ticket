@@ -108,10 +108,6 @@ const Track = styled.div`
   justify-content: center;
   align-items: center;
   gap: 10px;
-  filter: drop-shadow(
-    0 0 5px
-      ${(props) => (props.trackActive === true ? props.color : "transparent")}
-  );
   .star-1,
   .star-2,
   .star-3 {
