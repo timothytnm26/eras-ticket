@@ -1,5 +1,8 @@
 import React, { useEffect, useRef } from "react";
 import styled from "styled-components";
+import useSound from 'use-sound';
+import mayHem from './mayHem.mp3';
+import bingo from './bingo.mp3';
 import { ERAS } from "../../data/eras";
 import { useState } from "react";
 import "./../../index.css";
@@ -31,17 +34,16 @@ const EraButton = styled.div`
     props.isRunning === false
       ? ""
       : props.active === true
-      ? ""
-      : "grayscale(100%)"};
+        ? ""
+        : "grayscale(100%)"};
   background-image: ${(props) =>
-    `url(${
-      props.isRunning === false
-        ? props.isRandomAlbum === false
-          ? props.eras.taylor
-          : props.active === false
+    `url(${props.isRunning === false
+      ? props.isRandomAlbum === false
+        ? props.eras.taylor
+        : props.active === false
           ? props.taylor
           : ""
-        : props.active === true
+      : props.active === true
         ? props.taylor
         : ""
     }Bg.png)`};
@@ -56,15 +58,14 @@ const EraButton = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 20px;
   font-family: ${(props) => props.eras.font};
   background-color: ${(props) => props.bg};
   width: ${(props) =>
     props.isRandomAlbum === false
       ? ` 10%`
       : props.active === true
-      ? `50%`
-      : `${50 / 9}%`};
+        ? `50%`
+        : `${50 / 9}%`};
   height: 100vh;
   color: ${(props) => props.txt};
   cursor: pointer;
@@ -73,7 +74,7 @@ const AlbumName = styled.div`
   color: ${(props) => (props.isRandomAlbum === false ? "white" : "")};
   z-index: 1;
   user-select: none;
-  font-size: ${(props) => (props.active ? "70px" : "45px")} !important;
+  font-size: ${(props) => (props.active ? "50px" : "45px")} !important;
   writing-mode: ${(props) =>
     props.active === false || props.isRandomAlbum === false
       ? "vertical-lr"
@@ -101,7 +102,7 @@ const Tracks = styled.div`
 const Track = styled.div`
   position: relative;
   user-select: none;
-  font-size: ${(props) => (props.trackActive === true ? "30px" : "18px")};
+  font-size: ${(props) => (props.trackActive === true ? "25px" : "16px")};
   font-weight: ${(props) => (props.trackActive === true ? "700" : "300")};
   z-index: ${(props) => (props.trackActive === true ? "99" : "0")};
   display: flex;
@@ -277,13 +278,21 @@ const ErasBanner = () => {
   const [height, setHeight] = useState(0);
   const [width, setWidth] = useState(0);
   const confetiRef = useRef(null);
-
+  const [play, { stop: stop }] = useSound(mayHem);
+  const [playBingo] = useSound(bingo, {
+    volume: 1.5,
+  });
+  const [isPlay, setIsPlay] = useState(false);
+  useEffect(() => {
+    isPlay ? play() : stop()
+  }, [isPlay])
   useEffect(() => {
     if (trackActive !== null) {
       setHeight(confetiRef.current.clientHeight);
       setWidth(confetiRef.current.clientWidth);
     }
   }, [trackActive]);
+
   useEffect(() => {
     const handleMouseMove = (event) => {
       if (dragging) {
@@ -319,6 +328,7 @@ const ErasBanner = () => {
       setIsRandomAlbum(false);
     }
     setRandomButton(false);
+    setIsPlay(true)
   };
   useEffect(() => {
     if (isRandomAlbum) {
@@ -343,6 +353,8 @@ const ErasBanner = () => {
           setTrackActive(albumTracks.items[finalIndex]);
           setIsTrackRunning(false);
           setRandomButton(true);
+          setIsPlay(false)
+          playBingo()
         }, TRACK_TIME);
         const intervalDurationTimeout = setInterval(() => {
           setIntervalDuration((prevDuration) => prevDuration + 100);
@@ -350,6 +362,8 @@ const ErasBanner = () => {
         return () => {
           clearInterval(interval);
           clearInterval(intervalDurationTimeout);
+          setIsPlay(false)
+
         };
       }, 2000);
     }
@@ -374,6 +388,7 @@ const ErasBanner = () => {
       return () => {
         clearInterval(interval);
         clearInterval(intervalDurationTimeout);
+
       };
     }
   }, [isRunning]);

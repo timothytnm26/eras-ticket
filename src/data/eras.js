@@ -488,13 +488,13 @@ export const ERAS = [
   },
   {
     id: "fearless",
-    name: "Fearless (T'S V)",
+    name: "Fearless (TV)",
     color1: "#FDDAA6",
     color2: " #1E151A",
     banner: "fearless",
     font: "Fearless",
     spotifyId: "4hDok0OAJd57SGIT8xuWJH",
-    playlistName: "Fearless (T's V)",
+    playlistName: "Fearless (TV)",
     isoString: "2021-04-09T00:00:00Z",
     sharingInfo: {
       shareId: "sOlVlLBkTnWOGML4y-MfFA",
@@ -510,7 +510,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:77sMIMlNaSURUAXq5coCxE",
-            name: "Fearless (T's V)",
+            name: "Fearless (TV)",
             playcount: "92248889",
             discNumber: 1,
             trackNumber: 1,
@@ -541,7 +541,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:2nqio0SfWg6gh2eCtfuMa5",
-            name: "Fifteen (T's V)",
+            name: "Fifteen (TV)",
             playcount: "57810508",
             discNumber: 1,
             trackNumber: 2,
@@ -572,7 +572,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:6YvqWjhGD8mB5QXcbcUKtx",
-            name: "Love Story (T's V)",
+            name: "Love Story (TV)",
             playcount: "360990516",
             discNumber: 1,
             trackNumber: 3,
@@ -603,7 +603,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:550erGcdD9n6PnwxrvYqZT",
-            name: "Hey Stephen (T's V)",
+            name: "Hey Stephen (TV)",
             playcount: "53155563",
             discNumber: 1,
             trackNumber: 4,
@@ -634,7 +634,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:5YL553x8sHderRBDlm3NM3",
-            name: "White Horse (T's V)",
+            name: "White Horse (TV)",
             playcount: "54489538",
             discNumber: 1,
             trackNumber: 5,
@@ -665,7 +665,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:1qrpoAMXodY6895hGKoUpA",
-            name: "You Belong With Me (T's V)",
+            name: "You Belong With Me (TV)",
             playcount: "271443077",
             discNumber: 1,
             trackNumber: 6,
@@ -696,7 +696,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:7HC7R2D8WjXVcUHJyEGjRs",
-            name: "Breathe (feat. Colbie Caillat) (T's V)",
+            name: "Breathe (feat. Colbie Caillat) (TV)",
             playcount: "41050576",
             discNumber: 1,
             trackNumber: 7,
@@ -733,7 +733,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:0k0vFacOHNuArLWMiH60p7",
-            name: "Tell Me Why (T's V)",
+            name: "Tell Me Why (TV)",
             playcount: "35082459",
             discNumber: 1,
             trackNumber: 8,
@@ -764,7 +764,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:6iiAfo4wTA2CVC3Uwx9uh8",
-            name: "You’re Not Sorry (T's V)",
+            name: "You’re Not Sorry (TV)",
             playcount: "42005959",
             discNumber: 1,
             trackNumber: 9,
@@ -795,7 +795,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:22bPsP2jCgbLUvh82U0Z3M",
-            name: "The Way I Loved You (T's V)",
+            name: "The Way I Loved You (TV)",
             playcount: "227540967",
             discNumber: 1,
             trackNumber: 10,
@@ -826,7 +826,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:1msEuwSBneBKpVCZQcFTsU",
-            name: "Forever & Always (T's V)",
+            name: "Forever & Always (TV)",
             playcount: "62832086",
             discNumber: 1,
             trackNumber: 11,
@@ -857,7 +857,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:6ON9UuIq49xXY9GPmHIYRp",
-            name: "The Best Day (T's V)",
+            name: "The Best Day (TV)",
             playcount: "31226211",
             discNumber: 1,
             trackNumber: 12,
@@ -888,7 +888,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:3ExweHKZF9B752DPQByRVT",
-            name: "Change (T's V)",
+            name: "Change (TV)",
             playcount: "27750892",
             discNumber: 1,
             trackNumber: 13,
@@ -919,7 +919,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:2m3ObD945KvpE5y9A1eUWm",
-            name: "Jump Then Fall (T's V)",
+            name: "Jump Then Fall (TV)",
             playcount: "32475501",
             discNumber: 1,
             trackNumber: 14,
@@ -950,7 +950,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:0tQ9vBYpldCuikPsbgOVKA",
-            name: "Untouchable (T's V)",
+            name: "Untouchable (TV)",
             playcount: "33374183",
             discNumber: 1,
             trackNumber: 15,
@@ -981,7 +981,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:01QdEx6kFr78ZejhQtWR5m",
-            name: "Forever & Always (Piano Version) (T's V)",
+            name: "Forever & Always (Piano Version) (TV)",
             playcount: "32542674",
             discNumber: 1,
             trackNumber: 16,
@@ -1012,7 +1012,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:1n2wszmJyVkw6FHqyLnQsY",
-            name: "Come In With The Rain (T's V)",
+            name: "Come In With The Rain (TV)",
             playcount: "25115608",
             discNumber: 1,
             trackNumber: 17,
@@ -1043,7 +1043,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:51A8eKvvZz9uydvIZ7xRSV",
-            name: "Superstar (T's V)",
+            name: "Superstar (TV)",
             playcount: "22794583",
             discNumber: 1,
             trackNumber: 18,
@@ -1074,7 +1074,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:1cSFlSBdpT4F5vb1frQ231",
-            name: "The Other Side Of The Door (T's V)",
+            name: "The Other Side Of The Door (TV)",
             playcount: "41832448",
             discNumber: 1,
             trackNumber: 19,
@@ -1105,7 +1105,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:2JoJrsEV15OzbijS47lids",
-            name: "Today Was A Fairytale (T's V)",
+            name: "Today Was A Fairytale (TV)",
             playcount: "32184515",
             discNumber: 1,
             trackNumber: 20,
@@ -1136,7 +1136,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:4CHpVfAhuxNJ3ibExe6kxO",
-            name: "You All Over Me (feat. Maren Morris) (T's V) (From The Vault)",
+            name: "You All Over Me (feat. Maren Morris) (TV) (FTV)",
             playcount: "82620342",
             discNumber: 1,
             trackNumber: 21,
@@ -1173,7 +1173,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:2CYVETnhM9aytqrazYYwrK",
-            name: "Mr. Perfectly Fine (T's V) (From The Vault)",
+            name: "Mr. Perfectly Fine (TV) (FTV)",
             playcount: "222854489",
             discNumber: 1,
             trackNumber: 22,
@@ -1204,7 +1204,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:34V9RiEPe8MNdU32qJsJa1",
-            name: "We Were Happy (T's V) (From The Vault)",
+            name: "We Were Happy (TV) (FTV)",
             playcount: "37941317",
             discNumber: 1,
             trackNumber: 23,
@@ -1235,7 +1235,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:7eResoqEJJAVTkQYSqvO3P",
-            name: "That’s When (feat. Keith Urban) (T's V) (From The Vault)",
+            name: "That’s When (feat. Keith Urban) (TV) (FTV)",
             playcount: "51564607",
             discNumber: 1,
             trackNumber: 24,
@@ -1272,7 +1272,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:4uuEGH5SVuzkkSFjo2DEiY",
-            name: "Don’t You (T's V) (From The Vault)",
+            name: "Don’t You (TV) (FTV)",
             playcount: "44049365",
             discNumber: 1,
             trackNumber: 25,
@@ -1303,7 +1303,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:4qUijfYU8EoIWiY6oSyrgT",
-            name: "Bye Bye Baby (T's V) (From The Vault)",
+            name: "Bye Bye Baby (TV) (FTV)",
             playcount: "34898977",
             discNumber: 1,
             trackNumber: 26,
@@ -1998,7 +1998,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:6lzc0Al0zfZOIFsFvBS1ki",
-            name: "State Of Grace (T's V)",
+            name: "State Of Grace (TV)",
             playcount: "79438376",
             discNumber: 1,
             trackNumber: 1,
@@ -2029,7 +2029,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:4OAuvHryIVv4kMDNSLuPt6",
-            name: "Red (T's V)",
+            name: "Red (TV)",
             playcount: "158871329",
             discNumber: 1,
             trackNumber: 2,
@@ -2060,7 +2060,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:3S7HNKPakdwNEBFIVTL6dZ",
-            name: "Treacherous (T's V)",
+            name: "Treacherous (TV)",
             playcount: "69443981",
             discNumber: 1,
             trackNumber: 3,
@@ -2091,7 +2091,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:6AtZLIzUINvExIUy4QhdjP",
-            name: "I Knew You Were Trouble (T's V)",
+            name: "I Knew You Were Trouble (TV)",
             playcount: "155730872",
             discNumber: 1,
             trackNumber: 4,
@@ -2122,7 +2122,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:3nsfB1vus2qaloUdcBZvDu",
-            name: "All Too Well (T's V)",
+            name: "All Too Well (TV)",
             playcount: "157697451",
             discNumber: 1,
             trackNumber: 5,
@@ -2153,7 +2153,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:3yII7UwgLF6K5zW3xad3MP",
-            name: "22 (T's V)",
+            name: "22 (TV)",
             playcount: "121605121",
             discNumber: 1,
             trackNumber: 6,
@@ -2184,7 +2184,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:2r9CbjYgFhtAmcFv1cSquB",
-            name: "I Almost Do (T's V)",
+            name: "I Almost Do (TV)",
             playcount: "58189728",
             discNumber: 1,
             trackNumber: 7,
@@ -2215,7 +2215,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:5YqltLsjdqFtvqE7Nrysvs",
-            name: "We Are Never Ever Getting Back Together (T's V)",
+            name: "We Are Never Ever Getting Back Together (TV)",
             playcount: "141242354",
             discNumber: 1,
             trackNumber: 8,
@@ -2246,7 +2246,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:7eQj6r5PIdYKEIZjucBMcq",
-            name: "Stay Stay Stay (T's V)",
+            name: "Stay Stay Stay (TV)",
             playcount: "56903545",
             discNumber: 1,
             trackNumber: 9,
@@ -2277,7 +2277,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:0y6kdSRCVQhSsHSpWvTUm7",
-            name: "The Last Time (feat. Gary Lightbody of Snow Patrol) (T's V)",
+            name: "The Last Time (feat. Gary Lightbody of Snow Patrol) (TV)",
             playcount: "64998552",
             discNumber: 1,
             trackNumber: 10,
@@ -2314,7 +2314,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:7J4b3LVCIGO4CMBDFLPoP6",
-            name: "Holy Ground (T's V)",
+            name: "Holy Ground (TV)",
             playcount: "52229164",
             discNumber: 1,
             trackNumber: 11,
@@ -2345,7 +2345,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:73qMN9bXy7MSPwwGfH3wQr",
-            name: "Sad Beautiful Tragic (T's V)",
+            name: "Sad Beautiful Tragic (TV)",
             playcount: "56122642",
             discNumber: 1,
             trackNumber: 12,
@@ -2376,7 +2376,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:4e5ayHsOLJNLTGfjau2mEw",
-            name: "The Lucky One (T's V)",
+            name: "The Lucky One (TV)",
             playcount: "48098566",
             discNumber: 1,
             trackNumber: 13,
@@ -2407,7 +2407,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:7qEUFOVcxRI19tbT68JcYK",
-            name: "Everything Has Changed (feat. Ed Sheeran) (T's V)",
+            name: "Everything Has Changed (feat. Ed Sheeran) (TV)",
             playcount: "80829376",
             discNumber: 1,
             trackNumber: 14,
@@ -2444,7 +2444,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:7A2cNLRT0YJc1yjxHlKihs",
-            name: "Starlight (T's V)",
+            name: "Starlight (TV)",
             playcount: "43336636",
             discNumber: 1,
             trackNumber: 15,
@@ -2475,7 +2475,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:05GsNucq8Bngd9fnd4fRa0",
-            name: "Begin Again (T's V)",
+            name: "Begin Again (TV)",
             playcount: "59116507",
             discNumber: 1,
             trackNumber: 16,
@@ -2506,7 +2506,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:0NRHj8hDwwmSPaA41o379r",
-            name: "The Moment I Knew (T's V)",
+            name: "The Moment I Knew (TV)",
             playcount: "44190509",
             discNumber: 1,
             trackNumber: 17,
@@ -2537,7 +2537,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:4pNApnaUWAL2J4KO2eqokq",
-            name: "Come Back...Be Here (T's V)",
+            name: "Come Back...Be Here (TV)",
             playcount: "64925694",
             discNumber: 1,
             trackNumber: 18,
@@ -2568,7 +2568,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:0DMVrlMUn01M0IcpDbwgu7",
-            name: "Girl At Home (T's V)",
+            name: "Girl At Home (TV)",
             playcount: "37401809",
             discNumber: 1,
             trackNumber: 19,
@@ -2599,7 +2599,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:5jAIouBES8LWMiriuNq170",
-            name: "State Of Grace (Acoustic Version) (T's V)",
+            name: "State Of Grace (Acoustic Version) (TV)",
             playcount: "34091364",
             discNumber: 1,
             trackNumber: 20,
@@ -2630,7 +2630,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:7nWui6jiMM2m9qFmET1Mtj",
-            name: "Ronan (T's V)",
+            name: "Ronan (TV)",
             playcount: "27795980",
             discNumber: 1,
             trackNumber: 21,
@@ -2661,7 +2661,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:4OmFmE0fzcMG6g0Y8p4eSD",
-            name: "Better Man (T's V) (From The Vault)",
+            name: "Better Man (TV) (FTV)",
             playcount: "86493034",
             discNumber: 1,
             trackNumber: 22,
@@ -2692,7 +2692,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:01K4zKU104LyJ8gMb7227B",
-            name: "Nothing New (feat. Phoebe Bridgers) (T's V) (From The Vault)",
+            name: "Nothing New (feat. Phoebe Bridgers) (TV) (FTV)",
             playcount: "135436270",
             discNumber: 1,
             trackNumber: 23,
@@ -2729,7 +2729,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:0v4z1tuZvn6LGknom9Qx7d",
-            name: "Babe (T's V) (From The Vault)",
+            name: "Babe (TV) (FTV)",
             playcount: "72386511",
             discNumber: 1,
             trackNumber: 24,
@@ -2760,7 +2760,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:3z6XUommYDWPHeFhmhhT6j",
-            name: "Message In A Bottle (T's V) (From The Vault)",
+            name: "Message In A Bottle (TV) (FTV)",
             playcount: "134766510",
             discNumber: 1,
             trackNumber: 25,
@@ -2791,7 +2791,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:4CkgMiMqZ5JzW9iYXSTMTL",
-            name: "I Bet You Think About Me (feat. Chris Stapleton) (T's V) (From The Vault)",
+            name: "I Bet You Think About Me (feat. Chris Stapleton) (TV) (FTV)",
             playcount: "137890924",
             discNumber: 1,
             trackNumber: 26,
@@ -2828,7 +2828,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:3oGVx9RBmiYGv5ZCecWLkx",
-            name: "Forever Winter (T's V) (From The Vault)",
+            name: "Forever Winter (TV) (FTV)",
             playcount: "58669677",
             discNumber: 1,
             trackNumber: 27,
@@ -2859,7 +2859,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:4IQkfUsrwXol38VV3U7t7T",
-            name: "Run (feat. Ed Sheeran) (T's V) (From The Vault)",
+            name: "Run (feat. Ed Sheeran) (TV) (FTV)",
             playcount: "103682055",
             discNumber: 1,
             trackNumber: 28,
@@ -2896,7 +2896,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:6pYNq0ZwpPVazKzsqpf0G8",
-            name: "The Very First Night (T's V) (From The Vault)",
+            name: "The Very First Night (TV) (FTV)",
             playcount: "102127088",
             discNumber: 1,
             trackNumber: 29,
@@ -2927,7 +2927,7 @@ export const ERAS = [
           track: {
             saved: false,
             uri: "spotify:track:5enxwA8aAbwZbf5qCHORXi",
-            name: "All Too Well (10 Minute Version) (T's V) (From The Vault)",
+            name: "All Too Well (10 Minute Version) (TV) (FTV)",
             playcount: "519191158",
             discNumber: 1,
             trackNumber: 30,
