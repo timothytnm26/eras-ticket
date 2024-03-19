@@ -1,3 +1,7 @@
+/* eslint-disable react-hooks/exhaustive-deps */
+/* eslint-disable no-useless-rename */
+/* eslint-disable no-unused-vars */
+/* eslint-disable react/jsx-no-target-blank */
 import React, { useEffect, useRef } from "react";
 import styled from "styled-components";
 import useSound from 'use-sound';
@@ -10,7 +14,7 @@ import { Star1, Star2, Star3, Star4, Star5, Star6 } from "../Stars";
 import ErasParty from "../ErasParty";
 import Confetti from "react-confetti";
 const ALBUM_TIME = 10000;
-const TRACK_TIME = 5000;
+const TRACK_TIME = 10000;
 const Container = styled.div`
   width: 100%;
   display: flex;
@@ -140,17 +144,17 @@ const Track = styled.div`
     fill: ${(props) => props.color};
   }
 `;
-// const TaylorSwift = styled.img`
-//   display: ${(props) => (props.active === false ? "none" : "block")};
-//   position: absolute;
-//   z-index: 0;
-//   height: ${(props) => (props.isRandomAlbum === false ? "300px" : "200px")};
-//   left: 50%;
-//   bottom: 0;
-//   transform: translate(-50%, 0);
-//   user-select: none;
-//   opacity: 0.5;
-// `;
+const TaylorSwift = styled.img`
+  display: ${(props) => (props.active === false ? "none" : "block")};
+  position: absolute;
+  z-index: 0;
+  height: ${(props) => (props.isRandomAlbum === false ? "300px" : "200px")};
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 0);
+  user-select: none;
+  opacity: 0.5;
+`;
 const Random = styled.div`
   --glow-color: rgb(217, 176, 255);
   --glow-spread-color: rgba(191, 123, 255, 0.781);
@@ -419,7 +423,6 @@ const ErasBanner = () => {
                   href={
                     trackActive !== null ? eras.sharingInfo.shareUrl : "none"
                   }
-                  rel="noreferrer"
                   target="_blank"
                   style={{
                     textDecoration: "none",
