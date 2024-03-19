@@ -140,17 +140,17 @@ const Track = styled.div`
     fill: ${(props) => props.color};
   }
 `;
-const TaylorSwift = styled.img`
-  display: ${(props) => (props.active === false ? "none" : "block")};
-  position: absolute;
-  z-index: 0;
-  height: ${(props) => (props.isRandomAlbum === false ? "300px" : "200px")};
-  left: 50%;
-  bottom: 0;
-  transform: translate(-50%, 0);
-  user-select: none;
-  opacity: 0.5;
-`;
+// const TaylorSwift = styled.img`
+//   display: ${(props) => (props.active === false ? "none" : "block")};
+//   position: absolute;
+//   z-index: 0;
+//   height: ${(props) => (props.isRandomAlbum === false ? "300px" : "200px")};
+//   left: 50%;
+//   bottom: 0;
+//   transform: translate(-50%, 0);
+//   user-select: none;
+//   opacity: 0.5;
+// `;
 const Random = styled.div`
   --glow-color: rgb(217, 176, 255);
   --glow-spread-color: rgba(191, 123, 255, 0.781);
@@ -419,6 +419,7 @@ const ErasBanner = () => {
                   href={
                     trackActive !== null ? eras.sharingInfo.shareUrl : "none"
                   }
+                  rel="noreferrer"
                   target="_blank"
                   style={{
                     textDecoration: "none",
