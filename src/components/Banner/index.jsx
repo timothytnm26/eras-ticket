@@ -10,7 +10,7 @@ import { Star1, Star2, Star3, Star4, Star5, Star6 } from "../Stars";
 import ErasParty from "../ErasParty";
 import Confetti from "react-confetti";
 const ALBUM_TIME = 10000;
-const TRACK_TIME = 10000;
+const TRACK_TIME = 5000;
 const Container = styled.div`
   width: 100%;
   display: flex;
